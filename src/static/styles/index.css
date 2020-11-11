@@ -1,0 +1,39 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  margin: auto;
+  max-width: 36%;
+  padding: 10%;
+  /* background-color: aliceblue;*/
+}
+
+h1,
+p {
+  font-family: "Lato", sans-serif;
+}
+
+#speechContainer {
+  margin: 1.25em;
+}
+
+#submitButton  {
+  background-color: #42adbf;
+  color: white;
+  border-radius: 0.3em;
+  border: none;
+  padding: 0.635em 2em;
+  margin-top: 1.2em;
+}
+
+#submitButton:hover {
+  cursor: pointer;
+}
+
+
+#speechText {
+    width: 28em;
+    font-size: x-large;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+}
